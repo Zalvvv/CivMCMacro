@@ -11,7 +11,7 @@ var inv = Player.openInventory();
 const playerLocation = [5913,-6502]
 
 const chestPlacement = [[5912,77,-6501],[5912,78,-6501],[5912,79,-6501],[5912,80,-6501],[5912,77,-6502],[5912,78,-6502],[5912,79,-6502],[5912,80,-6502],[5912,77,-6504],[5912,78,-6504],[5912,79,-6504]]
-const expRecipe = [["minecraft:cocoa_beans",128,"Cocoa beans"],["minecraft:twisting_vines",64,"Blue vine"],["minecraft:glass_bottle",128,"Bottles"],["minecraft:nether_wart",64,"Netherwart"],["minecraft:red_mushrooms",32,"Red mushrooms"],["minecraft:carrot",128,"Carrots"],["minecraft:oak_sapling",32,"Oak saplings"],["minecraft:melon",128,"Melon"],["minecraft:kelp",64,"Kelp"],["minecraft:potato",256,"Potatoes"]]
+const expRecipe = [["minecraft:cocoa_beans",128,"Cocoa beans"],["minecraft:twisting_vines",64,"Blue vine"],["minecraft:glass_bottle",128,"Bottles"],["minecraft:nether_wart",64,"Netherwart"],["minecraft:red_mushroom",32,"Red mushrooms"],["minecraft:carrot",128,"Carrots"],["minecraft:oak_sapling",32,"Oak saplings"],["minecraft:melon",128,"Melon"],["minecraft:kelp",64,"Kelp"],["minecraft:potato",256,"Potatoes"]]
 
 function lookAtCenter(x, z) {// Look at the center of a block
     p.lookAt(x+0.5,p.getY()+1.5, z+0.5);
